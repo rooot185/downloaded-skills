@@ -1,0 +1,19 @@
+{
+  "name": "downloaded-skills",
+  "owner": {
+    "name": "rooot185"
+  },
+  "metadata": {
+    "description": "本地安装的 Agent Skills，供 Cursor 网页端和云端 Agent 使用。",
+    "version": "1.0.0",
+    "pluginRoot": "plugins"
+  },
+  "plugins": [
+    {
+      "name": "local-skills",
+      "source": "local-skills",
+      "description": "从本机 ~/.cursor/skills、~/.agents/skills 和 ~/.codex/skills 收集的 Agent Skills。",
+      "keywords": ["skills", "cursor", "cloud-agents"]
+    }
+  ]
+}
